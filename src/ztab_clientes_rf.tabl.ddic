@@ -1,0 +1,18 @@
+@EndUserText.label : 'Tabela Clientes Importados'
+@AbapCatalog.enhancement.category : #NOT_EXTENSIBLE
+@AbapCatalog.tableCategory : #TRANSPARENT
+@AbapCatalog.deliveryClass : #A
+@AbapCatalog.dataMaintenance : #RESTRICTED
+define table ztab_clientes_rf {
+  key client      : abap.clnt not null;
+  key linha       : abap.int4 not null;
+  status          : abap.char(10);
+  criticality     : abap.int1;
+  cnpj            : abap.char(14);
+  nome            : abap.char(80);
+  endereco        : abap.char(100);
+  cidade          : abap.char(50);
+  uf              : abap.char(2);
+  cep             : abap.char(10);
+  mensagem        : abap.char(120);
+}

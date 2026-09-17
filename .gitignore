@@ -1,0 +1,13 @@
+# Credenciais e segredos (NÃO commitar chaves reais)
+abap_trial_service_key.json
+*.key
+*.secret
+
+# Arquivos temporários do sistema e IDE
+.vscode/
+*.tmp
+*.log
+Thumbs.db
+Desktop.ini
+
+~$*

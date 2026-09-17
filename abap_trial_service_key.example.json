@@ -1,0 +1,18 @@
+{
+    "url": "https://<your-subdomain>.abap.<region>.hana.ondemand.com",
+    "binding": {
+        "env": "cf",
+        "type": "oauth",
+        "version": "1.0.1.1"
+    },
+    "endpoints": {
+        "abap": "https://<your-subdomain>.abap.<region>.hana.ondemand.com"
+    },
+    "sap.cloud.service": "com.sap.cloud.abap",
+    "systemid": "TRL",
+    "uaa": {
+        "clientid": "sb-<your-service-instance-id>",
+        "clientsecret": "<your-client-secret>",
+        "url": "https://<your-subaccount>.authentication.<region>.hana.ondemand.com"
+    }
+}

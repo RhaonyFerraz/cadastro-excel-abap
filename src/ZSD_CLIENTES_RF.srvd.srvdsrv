@@ -1,0 +1,4 @@
+@EndUserText.label: 'Service Definition Clientes Fiori'
+define service ZSD_CLIENTES_RF {
+  expose ZC_CLIENTES_RF as Clientes;
+}
