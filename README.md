@@ -44,6 +44,25 @@ O projeto resolve um dos desafios mais frequentes em consultorias e empresas de 
 
 ---
 
+## 📸 Demonstração Visual da Aplicação
+
+### 1. Aplicação SAP Fiori Elements em Execução (SAP BTP)
+> Interface List Report gerada dinamicamente via CDS View Entity com filtros de pesquisa e badges semânticos de validação (*Criticality* 🟢 Verde para Válido / 🔴 Vermelho para Inválido).
+
+![SAP Fiori Elements Preview](docs/img/fiori_elements_preview.png)
+
+### 2. Desenvolvimento no Visual Studio Code (SAP ADT & Service Binding)
+> Arquitetura RAP moderna: Service Binding OData V4 publicado diretamente na nuvem pelo VS Code.
+
+![Visual Studio Code ADT](docs/img/vscode_adt_binding.png)
+
+### 3. Dados de Entrada (Planilha Excel Modelo)
+> Estrutura da planilha padronizada com dados consistentes e propositalmente inconsistentes para testes unitários de validação fiscal.
+
+![Planilha Excel Modelo](docs/img/excel_dados_origem.png)
+
+---
+
 ## 🎯 Principais Destaques Técnicos
 
 1. **Stack de Última Geração da SAP**:
